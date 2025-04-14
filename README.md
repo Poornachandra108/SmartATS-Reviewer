@@ -121,20 +121,6 @@ Example structure of AI response from Gemini:
 
 ---
 
-## 8️⃣ Project Folder Structure
-
-```
-SmartATS-Reviewer/
-│
-├── app.py
-├── requirements.txt
-├── .env
-├── venv/ (local virtual environment)
-└── README.md
-```
-
----
-
 ## 🙌 Conclusion
 
 SmartATS Reviewer bridges the gap between job seekers and ATS systems by providing intelligent resume analysis & actionable feedback using cutting-edge AI.

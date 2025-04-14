@@ -13,7 +13,7 @@ By leveraging Google's Gemini Pro AI, this tool reviews resumes just like an App
 
 ---
 
-## 🎯 Objectives
+## 1️⃣ Objectives
 
 - Provide an automated resume review system for job seekers.
 - Match resumes with job descriptions & highlight missing keywords.
@@ -22,7 +22,7 @@ By leveraging Google's Gemini Pro AI, this tool reviews resumes just like an App
 
 ---
 
-## 🚀 Features
+## 2️⃣ Features
 
 | Feature | Description |
 |---------|-------------|
@@ -35,7 +35,7 @@ By leveraging Google's Gemini Pro AI, this tool reviews resumes just like an App
 
 ---
 
-## 🛠️ Technologies Used
+## 3️⃣ Technologies Used
 
 - `Streamlit` — Web App Interface
 - `Google Generative AI (Gemini Pro)` — Resume Analysis Engine
@@ -45,7 +45,7 @@ By leveraging Google's Gemini Pro AI, this tool reviews resumes just like an App
 
 ---
 
-## 💡 Challenges Faced
+## 4️⃣ Challenges Faced
 
 - Gemini API Integration & Prompt Engineering.
 - Handling PDF parsing across various formats.
@@ -54,7 +54,7 @@ By leveraging Google's Gemini Pro AI, this tool reviews resumes just like an App
 
 ---
 
-## 🔮 Future Enhancements
+## 5️⃣ Future Enhancements
 
 - Support for multi-page detailed resumes.
 - Interactive Resume Editing feature.
@@ -64,9 +64,85 @@ By leveraging Google's Gemini Pro AI, this tool reviews resumes just like an App
 
 ---
 
-## ⚙️ Project Setup
+## 6️⃣ Project Setup & Installation Steps
 
-### 1. Clone this Repository
+### Step 1: Clone the Repository
 ```bash
 git clone <repo-link>
 cd SmartATS-Reviewer
+```
+
+### Step 2: Create Virtual Environment
+
+#### For Windows:
+```bash
+python -m venv venv
+.env\Scriptsctivate
+```
+
+#### For MacOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Step 3: Install Required Dependencies
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### Step 4: Add Environment Variables
+
+Create a `.env` file in your project directory and add your Google API Key from MakerSuite:
+
+```
+GOOGLE_API_KEY="your_makersuite_generated_key"
+```
+
+### Step 5: Run the Streamlit Application
+```bash
+streamlit run app.py
+```
+
+---
+
+## 7️⃣ Sample Output Example
+
+Example structure of AI response from Gemini:
+
+```json
+{
+   "JD Match":"85%",
+   "MissingKeywords":["Machine Learning", "SQL", "Data Pipeline"],
+   "Profile Summary":"Strong candidate with good analytical skills. Improve technical skills in ML & data engineering."
+}
+```
+
+---
+
+## 8️⃣ Project Folder Structure
+
+```
+SmartATS-Reviewer/
+│
+├── app.py
+├── requirements.txt
+├── .env
+├── venv/ (local virtual environment)
+└── README.md
+```
+
+---
+
+## 🙌 Conclusion
+
+SmartATS Reviewer bridges the gap between job seekers and ATS systems by providing intelligent resume analysis & actionable feedback using cutting-edge AI.
+
+This project aims to make the job application process smarter, more transparent, and user-friendly for everyone!
+
+---
+
+## 🔗 Connect With Me
+
+Feel free to connect or collaborate if you like this project!

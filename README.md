@@ -6,10 +6,10 @@ An AI-Powered Resume Review System using Google Generative AI (Gemini) & Streaml
 
 ## 📖 Project Overview
 
-Job hunting can be overwhelming — especially when rejection emails come without feedback.  
-This inspired me to build *SmartATS Reviewer* — an intelligent application that helps job seekers analyze their resumes against job descriptions and provides actionable feedback.
+Job hunting can be overwhelming, especially when rejection emails come without feedback.  
+This inspired me to build *SmartATS Reviewer* an intelligent application that helps job seekers analyze their resumes against job descriptions and provides actionable feedback.
 
-By leveraging Google's Gemini Pro AI, this tool reviews resumes just like an Applicant Tracking System (ATS) would — and guides users on how to improve their profiles for better shortlisting chances.
+By leveraging Google's Gemini Pro AI, this tool reviews resumes just like an Applicant Tracking System (ATS) would and guides users on how to improve their profiles for better shortlisting chances.
 
 ---
 
